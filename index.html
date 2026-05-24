@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GymStart – Hướng Dẫn Tập Gym Cho Người Mới</title>
+  <meta name="description" content="Hướng dẫn tập gym toàn diện cho người mới bắt đầu. Lịch tập, dinh dưỡng, bài tập cơ bản và FAQ chi tiết." />
+  <meta name="keywords" content="tập gym, người mới tập gym, lịch tập gym, bài tập gym cơ bản, dinh dưỡng gym" />
+  <meta property="og:title" content="GymStart – Hướng Dẫn Tập Gym Cho Người Mới" />
+  <meta property="og:description" content="Hướng dẫn tập gym toàn diện cho người mới bắt đầu." />
+  <meta property="og:type" content="website" />
+  <link rel="canonical" href="https://your-website-url.com/" />
+
+  <!-- AEO/AIEO: Schema Markup -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "GymStart",
+    "description": "Hướng dẫn tập gym toàn diện cho người mới bắt đầu",
+    "url": "https://your-website-url.com"
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Người mới tập gym nên tập gì?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Người mới nên tập full body 3 buổi mỗi tuần với các bài cơ bản: squat, deadlift, bench press, pull-up và plank. Tập với tạ nhẹ, tập trung vào kỹ thuật trước."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Tập gym bao nhiêu buổi một tuần là đủ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Người mới bắt đầu nên tập 3 buổi/tuần, cách ngày để cơ thể có thời gian hồi phục. Sau 2-3 tháng có thể tăng lên 4-5 buổi/tuần."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Ăn gì trước khi tập gym?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Ăn trước tập 1-2 tiếng với bữa có carb và protein: cơm + thịt gà, bánh mì + trứng, hoặc chuối + sữa chua. Tránh ăn quá no hoặc quá ít."
+        }
+      }
+    ]
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="#" class="logo">GYM<span>START</span></a>
+      <ul class="nav-links">
+        <li><a href="#buoc-bat-dau">Bắt Đầu</a></li>
+        <li><a href="#lich-tap">Lịch Tập</a></li>
+        <li><a href="#dinh-duong">Dinh Dưỡng</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#lien-he" class="btn-nav">Liên Hệ</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header class="hero" id="home">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+      <p class="hero-tag">Dành Cho Người Mới Bắt Đầu</p>
+      <h1>BẮT ĐẦU<br/><span class="accent">HÀNH TRÌNH</span><br/>TẬP GYM</h1>
+      <p class="hero-sub">Không cần kinh nghiệm. Không cần thiết bị đắt tiền.<br/>Chỉ cần sự quyết tâm — chúng tôi lo phần còn lại.</p>
+      <div class="hero-cta">
+        <a href="#buoc-bat-dau" class="btn-primary">Bắt Đầu Ngay</a>
+        <a href="#lich-tap" class="btn-ghost">Xem Lịch Tập</a>
+      </div>
+    </div>
+    <div class="hero-stats">
+      <div class="stat"><span class="stat-num">3</span><span class="stat-label">Buổi/Tuần</span></div>
+      <div class="stat-divider"></div>
+      <div class="stat"><span class="stat-num">30+</span><span class="stat-label">Bài Tập</span></div>
+      <div class="stat-divider"></div>
+      <div class="stat"><span class="stat-num">100%</span><span class="stat-label">Miễn Phí</span></div>
+    </div>
+  </header>
+
+  <!-- BUOC BAT DAU -->
+  <section class="section" id="buoc-bat-dau">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Hướng Dẫn</span>
+        <h2>Người Mới Tập Gym Nên Bắt Đầu Từ Đâu?</h2>
+        <p>4 bước cơ bản để khởi đầu hành trình tập luyện đúng cách và bền vững.</p>
+      </div>
+      <div class="steps-grid">
+        <article class="step-card">
+          <div class="step-num">01</div>
+          <h3>Xác Định Mục Tiêu</h3>
+          <p>Tăng cơ, giảm mỡ, hay cải thiện sức khỏe tổng thể? Mục tiêu rõ ràng giúp bạn chọn đúng chương trình tập.</p>
+        </article>
+        <article class="step-card">
+          <div class="step-num">02</div>
+          <h3>Học Kỹ Thuật Cơ Bản</h3>
+          <p>Squat, deadlift, bench press — nắm vững kỹ thuật trước khi tăng tạ. Tránh chấn thương từ những ngày đầu.</p>
+        </article>
+        <article class="step-card">
+          <div class="step-num">03</div>
+          <h3>Lập Lịch Tập Hợp Lý</h3>
+          <p>Tập 3 buổi/tuần, nghỉ cách ngày. Cơ thể cần thời gian hồi phục để phát triển.</p>
+        </article>
+        <article class="step-card">
+          <div class="step-num">04</div>
+          <h3>Dinh Dưỡng Đúng Cách</h3>
+          <p>Ăn đủ protein, carb và chất béo lành mạnh. Uống đủ nước trước, trong và sau tập.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- LICH TAP -->
+  <section class="section section-dark" id="lich-tap">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Lịch Tập</span>
+        <h2>Lịch Tập Full Body 3 Buổi/Tuần</h2>
+        <p>Chương trình lý tưởng cho người mới — đơn giản, hiệu quả, đủ thời gian nghỉ.</p>
+      </div>
+      <div class="schedule-grid">
+        <div class="schedule-day active-day">
+          <div class="day-header">
+            <span class="day-label">Thứ 2</span>
+            <span class="day-badge">Buổi A</span>
+          </div>
+          <ul class="exercise-list">
+            <li><span class="ex-name">Squat</span><span class="ex-sets">3 × 8 reps</span></li>
+            <li><span class="ex-name">Bench Press</span><span class="ex-sets">3 × 8 reps</span></li>
+            <li><span class="ex-name">Bent-over Row</span><span class="ex-sets">3 × 8 reps</span></li>
+            <li><span class="ex-name">Overhead Press</span><span class="ex-sets">3 × 8 reps</span></li>
+            <li><span class="ex-name">Plank</span><span class="ex-sets">3 × 30s</span></li>
+          </ul>
+        </div>
+        <div class="schedule-day rest-day">
+          <div class="day-header">
+            <span class="day-label">Thứ 3</span>
+            <span class="day-badge rest">Nghỉ</span>
+          </div>
+          <p class="rest-note">Đi bộ nhẹ hoặc giãn cơ 15–20 phút. Cơ thể cần hồi phục.</p>
+        </div>
+        <div class="schedule-day active-day">
+          <div class="day-header">
+            <span class="day-label">Thứ 4</span>
+            <span class="day-badge">Buổi B</span>
+          </div>
+          <ul class="exercise-list">
+            <li><span class="ex-name">Deadlift</span><span class="ex-sets">3 × 5 reps</span></li>
+            <li><span class="ex-name">Pull-up / Lat Pulldown</span><span class="ex-sets">3 × 8 reps</span></li>
+            <li><span class="ex-name">Dumbbell Press</span><span class="ex-sets">3 × 10 reps</span></li>
+            <li><span class="ex-name">Lunges</span><span class="ex-sets">3 × 10 reps</span></li>
+            <li><span class="ex-name">Crunch</span><span class="ex-sets">3 × 15 reps</span></li>
+          </ul>
+        </div>
+        <div class="schedule-day rest-day">
+          <div class="day-header">
+            <span class="day-label">Thứ 5</span>
+            <span class="day-badge rest">Nghỉ</span>
+          </div>
+          <p class="rest-note">Yoga nhẹ hoặc massage cơ. Ngủ đủ 7–8 tiếng.</p>
+        </div>
+        <div class="schedule-day active-day">
+          <div class="day-header">
+            <span class="day-label">Thứ 6</span>
+            <span class="day-badge">Buổi A</span>
+          </div>
+          <ul class="exercise-list">
+            <li><span class="ex-name">Squat</span><span class="ex-sets">3 × 10 reps</span></li>
+            <li><span class="ex-name">Bench Press</span><span class="ex-sets">3 × 10 reps</span></li>
+            <li><span class="ex-name">Bent-over Row</span><span class="ex-sets">3 × 10 reps</span></li>
+            <li><span class="ex-name">Overhead Press</span><span class="ex-sets">3 × 10 reps</span></li>
+            <li><span class="ex-name">Plank</span><span class="ex-sets">3 × 45s</span></li>
+          </ul>
+        </div>
+        <div class="schedule-day rest-day">
+          <div class="day-header">
+            <span class="day-label">T7 – CN</span>
+            <span class="day-badge rest">Nghỉ / Cardio</span>
+          </div>
+          <p class="rest-note">Tùy chọn: 20–30 phút cardio nhẹ hoặc hoạt động ngoài trời.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DINH DUONG -->
+  <section class="section" id="dinh-duong">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Dinh Dưỡng</span>
+        <h2>Ăn Gì Để Tập Gym Hiệu Quả?</h2>
+        <p>Dinh dưỡng chiếm 70% kết quả. Hiểu đúng để ăn đúng.</p>
+      </div>
+      <div class="nutrition-grid">
+        <article class="nutrition-card protein">
+          <div class="nutrition-icon">💪</div>
+          <h3>Protein</h3>
+          <div class="nutrition-amount">1.6–2.2g / kg cân nặng</div>
+          <p>Thịt gà, cá hồi, trứng, đậu phụ, sữa chua Hy Lạp. Protein giúp phục hồi và xây dựng cơ bắp.</p>
+        </article>
+        <article class="nutrition-card carb">
+          <div class="nutrition-icon">⚡</div>
+          <h3>Carbohydrate</h3>
+          <div class="nutrition-amount">Nguồn năng lượng chính</div>
+          <p>Cơm, khoai lang, yến mạch, chuối. Ăn trước tập để có năng lượng, sau tập để hồi phục.</p>
+        </article>
+        <article class="nutrition-card fat">
+          <div class="nutrition-icon">🥑</div>
+          <h3>Chất Béo Lành Mạnh</h3>
+          <div class="nutrition-amount">20–35% tổng calo</div>
+          <p>Bơ, dầu olive, hạt óc chó, cá hồi. Hỗ trợ hormone và hấp thụ vitamin.</p>
+        </article>
+        <article class="nutrition-card water">
+          <div class="nutrition-icon">💧</div>
+          <h3>Nước</h3>
+          <div class="nutrition-amount">2–3 lít mỗi ngày</div>
+          <p>Uống 400–600ml trước tập, nhấp từng ngụm trong khi tập. Mất nước giảm hiệu suất tới 20%.</p>
+        </article>
+      </div>
+
+      <div class="meal-timing">
+        <h3>Thời Gian Ăn Quanh Buổi Tập</h3>
+        <div class="timeline">
+          <div class="tl-item">
+            <div class="tl-time">2 tiếng trước</div>
+            <div class="tl-content">Bữa chính: cơm + thịt + rau</div>
+          </div>
+          <div class="tl-item">
+            <div class="tl-time">30 phút trước</div>
+            <div class="tl-content">Chuối hoặc bánh mì + mật ong</div>
+          </div>
+          <div class="tl-item active">
+            <div class="tl-time">Trong khi tập</div>
+            <div class="tl-content">Uống nước liên tục</div>
+          </div>
+          <div class="tl-item">
+            <div class="tl-time">30 phút sau</div>
+            <div class="tl-content">Protein shake hoặc trứng + chuối</div>
+          </div>
+          <div class="tl-item">
+            <div class="tl-time">1–2 tiếng sau</div>
+            <div class="tl-content">Bữa ăn đầy đủ: protein + carb + rau</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section section-dark" id="faq">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">FAQ</span>
+        <h2>Câu Hỏi Thường Gặp Về Tập Gym</h2>
+        <p>Giải đáp các thắc mắc phổ biến nhất của người mới bắt đầu.</p>
+      </div>
+      <div class="faq-list">
+        <details class="faq-item">
+          <summary><h3>Người mới tập gym nên tập gì?</h3></summary>
+          <div class="faq-answer">
+            <p>Người mới nên tập <strong>full body 3 buổi/tuần</strong> với các bài cơ bản: squat, deadlift, bench press, pull-up và plank. Bắt đầu với tạ nhẹ, tập trung vào kỹ thuật đúng trước khi tăng tải trọng.</p>
+          </div>
+        </details>
+        <details class="faq-item">
+          <summary><h3>Tập gym bao nhiêu buổi một tuần là đủ?</h3></summary>
+          <div class="faq-answer">
+            <p>Người mới bắt đầu nên tập <strong>3 buổi/tuần</strong>, cách ngày. Sau 2–3 tháng có thể tăng lên 4–5 buổi. Cơ thể cần 48 tiếng để cơ bắp hồi phục và phát triển.</p>
+          </div>
+        </details>
+        <details class="faq-item">
+          <summary><h3>Ăn gì trước khi tập gym?</h3></summary>
+          <div class="faq-answer">
+            <p>Ăn trước tập <strong>1–2 tiếng</strong> với bữa có carb và protein: cơm + thịt gà, bánh mì + trứng, hoặc chuối + sữa chua. Tránh ăn quá no hoặc ăn thức ăn khó tiêu.</p>
+          </div>
+        </details>
+        <details class="faq-item">
+          <summary><h3>Có nên uống whey protein không?</h3></summary>
+          <div class="faq-answer">
+            <p>Whey protein <strong>không bắt buộc</strong> nếu bạn ăn đủ protein từ thực phẩm tự nhiên. Tuy nhiên, whey là cách tiện lợi để bổ sung protein sau tập khi không có điều kiện nấu ăn ngay.</p>
+          </div>
+        </details>
+        <details class="faq-item">
+          <summary><h3>Tập gym có bị to cơ quá mức không?</h3></summary>
+          <div class="faq-answer">
+            <p><strong>Không.</strong> Tăng cơ là quá trình rất chậm và đòi hỏi chế độ ăn uống chuyên biệt. Tập gym thường xuyên giúp cơ thể săn chắc, khỏe mạnh — không tự nhiên to bất thường.</p>
+          </div>
+        </details>
+        <details class="faq-item">
+          <summary><h3>Đau cơ sau tập có bình thường không?</h3></summary>
+          <div class="faq-answer">
+            <p>Đau cơ nhẹ sau 24–48 tiếng (DOMS) là <strong>hoàn toàn bình thường</strong>, đặc biệt với người mới. Cần phân biệt đau cơ (lan tỏa, mỏi) với đau chấn thương (nhọn, cục bộ). Nếu đau kéo dài quá 72 tiếng, hãy nghỉ ngơi thêm.</p>
+          </div>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- LIEN HE -->
+  <section class="section" id="lien-he">
+    <div class="container">
+      <div class="contact-wrap">
+        <div class="contact-info">
+          <span class="section-tag">Liên Hệ</span>
+          <h2>Có Câu Hỏi?<br/>Chúng Tôi Sẵn Sàng Giúp!</h2>
+          <p>Gửi câu hỏi của bạn — chúng tôi sẽ phản hồi trong vòng 24 giờ.</p>
+          <div class="contact-details">
+            <div class="contact-item">
+              <span class="contact-icon">📧</span>
+              <span>hello@gymstart.vn</span>
+            </div>
+            <div class="contact-item">
+              <span class="contact-icon">📱</span>
+              <span>0900 000 000</span>
+            </div>
+          </div>
+        </div>
+        <form class="contact-form" onsubmit="handleSubmit(event)">
+          <div class="form-group">
+            <label for="name">Họ và Tên</label>
+            <input type="text" id="name" name="name" placeholder="Nguyễn Văn A" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="email@example.com" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Câu Hỏi / Tin Nhắn</label>
+            <textarea id="message" name="message" rows="4" placeholder="Bạn muốn hỏi về..."></textarea>
+          </div>
+          <button type="submit" class="btn-primary full-width">Gửi Tin Nhắn</button>
+          <p class="form-note" id="form-msg"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="#" class="logo">GYM<span>START</span></a>
+        <p>Đồng hành cùng người mới trên hành trình chinh phục sức khỏe.</p>
+      </div>
+      <div class="footer-links">
+        <h4>Nội Dung</h4>
+        <ul>
+          <li><a href="#buoc-bat-dau">Bắt Đầu</a></li>
+          <li><a href="#lich-tap">Lịch Tập</a></li>
+          <li><a href="#dinh-duong">Dinh Dưỡng</a></li>
+          <li><a href="#faq">FAQ</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h4>Công Nghệ</h4>
+        <ul>
+          <li>HTML / CSS / JS thuần</li>
+          <li>AEO Schema Markup</li>
+          <li>AIEO Semantic HTML</li>
+          <li>PageSpeed &gt; 90</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 GymStart. Xây dựng với kỹ thuật AEO & AIEO.</p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
