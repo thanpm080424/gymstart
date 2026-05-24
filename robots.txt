@@ -13,4 +13,4 @@ Allow: /
 User-agent: PerplexityBot
 Allow: /
 
-Sitemap: https://your-website-url.com/sitemap.xml
+Sitemap: https://thanpm080424.github.io/gymstart/sitemap.xml
